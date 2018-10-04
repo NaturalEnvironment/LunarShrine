@@ -1,0 +1,209 @@
+body 
+{
+    height: 95vh;
+    width: 100vw;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+
+}
+
+header 
+{
+    margin: 0;
+    position: relative;
+    width: 100vw;
+    height: 80px;
+    color: white;
+    z-index: 3;
+    text-align: center;
+}
+
+h1 
+{
+    color: white;
+    font-size: 16px;
+    margin: 5px;
+    margin-top: 15px;
+    padding: 0px;
+}
+
+h2
+{
+    color: white;
+    font-size: 50px;
+    margin: 5px;
+    padding: 0;
+}
+
+h3
+{
+    color: gray;
+    margin: 0;
+}
+
+h4 
+{
+    /* color: gray; */
+    margin: 0;
+}
+
+h5 
+{
+    padding-left: 41px;
+    margin: 0;
+    font-size: 40px;
+}
+
+#title
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: solid white 2px;
+}
+
+.title
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: solid white 2px;
+}
+
+nav > ol 
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    align-items: center;
+
+}
+
+nav li, nav ol 
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.submenu 
+{
+    background: rgb(aa,aa,aa);
+    color: white;
+    background-color: #333;
+    /* padding: 10px; */
+    height: auto;
+    max-height: 0px;
+    transition: max-height 600ms ease-in-out;
+}
+
+nav li:hover > .submenu 
+{
+    max-height: 500px;
+}
+
+.submenu > li 
+{
+    padding: 5px;
+
+}
+
+.submenu > li:first-child 
+{
+    padding: 5px;
+}
+
+.submenu > li:hover 
+{
+    background: #222;
+}
+
+#paperImage
+{
+    margin: 0;
+    margin-top: 5rem;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+#lunarLanding
+{
+    margin: 0;
+    width: 100vw;
+}
+
+#lunarAppearance
+{
+    justify-content: center;
+    width: 30vw;
+}
+
+#returnLink
+{
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+}
+
+#contentContainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#percentDiv
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#cloudDiv
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#lunarPercent
+{
+    padding-right: 6px;
+}
+
+#cloudPredict
+{
+    padding-right: 6px;
+}
+
+#APOD-image
+{
+    justify-content: center;
+    size: 20px;
+}
+
+a:link 
+{
+    color: gray;
+    text-decoration: none;
+}
+
+a:visited 
+{
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover 
+{
+    color: white;
+    text-decoration: none;
+}
+
+a:active 
+{
+    color: black;
+    text-decoration: none;
+} 

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./astronomyApi.css" type="text/css">
+    <title>Lunar Phase</title>
+</head>
+<body>
+    <header>
+        <h1>The</h1>
+        <h2 id="title">Lunar Phase</h2>
+        <img id="lunarAppearance" src="http://api.usno.navy.mil/imagery/moon.png?sequence=95&ID=AA-URL" alt="Current lunar appearance">
+        <section id="contentContainer">
+            
+            <div id="phaseDiv">
+                <h2 id="lunarPhase">Retrieving Current Phase... </h2>
+            </div>
+        
+            <div id="percentDiv">
+                <h3 id="lunarPercent">Retrieving Current</h3>
+                <h3> Percent Lunar Illumination</h3>
+            </div>
+
+            <div id="cloudDiv">
+                <h3 id="cloudPredict">Retrieving Current</h3>
+                <h3>Percent Local Cloud Cover</h3>
+            </div>
+            
+
+            </section>
+    </header>
+       
+
+
+    <a href="./homepage.html" id="returnLink">Back to Lunar Landing</a>
+    <script src="./moonPhase.js"></script>
+</body>
+</html>
